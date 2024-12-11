@@ -1,3 +1,18 @@
+[tool.poetry]
+name = "unitree-sdk2py"
+version = "1.0.1"
+description = "Unitree robot sdk version 2 for python"
+authors = ["UnitreeRobotics <unitree@unitree.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cyclonedds = "0.10.2"
+numpy = "^2.2.0"
+opencv-python = "^4.10.0.84"
+
+
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

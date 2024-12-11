@@ -3,7 +3,7 @@ Python interface for unitree sdk2
 
 # Installation
 ## Dependencies
-- Python >= 3.8
+- Python >= 3.10
 - cyclonedds == 0.10.2
 - numpy
 - opencv-python
@@ -40,7 +40,7 @@ Enter the unitree_sdk2_python directory, set `CYCLONEDDS_HOME` to the path of th
 ```bash
 cd ~/unitree_sdk2_python
 export CYCLONEDDS_HOME="~/cyclonedds/install"
-pip3 install -e .
+pip3 install -e . --no-deps
 ```
 For details, see: https://pypi.org/project/cyclonedds/#installing-with-pre-built-binaries
 
